@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IFirst } from '../first';
 
 @Component({
   selector: 'app-first',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./first.component.css']
 })
 export class FirstComponent {
-
+  first: IFirst = {
+    firstComponent1: "Hello"
+  }
 }
