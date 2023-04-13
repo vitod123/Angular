@@ -22,13 +22,6 @@ ul.todo_list {
     display: inline-block;
 }
 
-.todo_list li .deadline {
-    background-color: rgb(120, 153, 164);
-    color: white;
-    border-radius: 3px;
-    padding: 2px 4px;
-}
-
 .todo_list li {
     padding: 12px;
     padding-left: 40px;
@@ -48,9 +41,12 @@ ul.todo_list {
     background-color: rgb(166, 204, 217);
 }
 
-.todo_list .tryy{
-    background-color: rgb(226, 226, 226);
+.todo_list .tryy .deadline {
     list-style: inside url(/assets/icons/checked_16.png);
+    background-color: rgb(120, 153, 164);
+    color: white;
+    border-radius: 3px;
+    padding: 2px 4px;
     text-decoration: line-through;
     text-decoration-thickness: 2px;
 }
