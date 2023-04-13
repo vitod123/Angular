@@ -29,17 +29,6 @@ ul.todo_list {
     padding: 2px 4px;
 }
 
-/* .todo_list li::before {
-    content: url(materials_hw_module_2/icons/unchecked_16.png);
-    display: inline-block;
-    margin-right: 20px;
-}
-.todo_list li.done::before {
-    content: url(materials_hw_module_2/icons/checked_16.png);
-    display: inline-block;
-    margin-right: 20px;
-} */
-
 .todo_list li {
     padding: 12px;
     padding-left: 40px;
@@ -59,7 +48,7 @@ ul.todo_list {
     background-color: rgb(166, 204, 217);
 }
 
-.todo_list li.done {
+.todo_list .tryy{
     background-color: rgb(226, 226, 226);
     list-style: inside url(/assets/icons/checked_16.png);
     text-decoration: line-through;
