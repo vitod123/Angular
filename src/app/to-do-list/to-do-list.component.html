@@ -1,7 +1,7 @@
 <h1>My To Do List</h1>
 
 <ul class="todo_list">
-    <li *ngFor="let i of todolists" [class.tryy]="i.isCheck == false">
+    <li *ngFor="let i of todolists" [class.tryy]="i.isCheck == false"  (dblclick)="deleteTask(i)">
         {{i.name}}
         <span class="deadline">{{i.date}}</span>
     </li>

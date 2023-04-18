@@ -26,4 +26,10 @@ export class ToDoListComponent {
       {name: "Run 1 km", date: "15.01.2022", isCheck: false}
     ]
   }
+
+  deleteTask(todolists: IT0_Do_list): void {
+    let index = this.todolists.indexOf(todolists);
+
+    this.todolists.splice(index, 1);
+  }
 }
